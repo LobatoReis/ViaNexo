@@ -20,4 +20,5 @@ Informações de gerenciamento da encomenda só com pessoal da transportadora
 cliente visuara só status de encomenda
 os status da encomenda serão Pedido Registrado, Em Preparação, Em Transporte, Em rota de entrega, Entrega
 
-##### Regras Globais 
+##### Regras Globais
+Sempre utilize PDO para conexões e queries do MySQL para evitar SQL Injections. Mantenha o Código limpo e comente apenas logicas complexas Não faça um sistema monolítico, sempre modularize o sistema para facilitar os futuros upgrades Estilize as telas do Tailwind CSS de forma responsiva e pensem sempre em Mobilefist separe os arquivos de forma lógica: um arquivo para conexão da base (bd.php), scripts de backend isolados e views em HTML/PHP Retorne sem os erros de forma clara na interface para o usuário, pode utilizar (TOAST) caixas de mensagens devem sempre ser tratadas em um modal dentro da interface.
